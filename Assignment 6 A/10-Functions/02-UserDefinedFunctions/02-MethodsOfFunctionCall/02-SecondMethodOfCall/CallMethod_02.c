@@ -55,21 +55,21 @@ void Function_FirstName(void)
 {
     printf("\n\n");
 
-    printf("Pradnya");
+    printf("Shital");
 }
 
 void Function_MiddleName(void)
 {
     printf("\n\n");
 
-    printf("Vijay");
+    printf("Deepak");
 }
 
 void Function_Surname(void)
 {
     printf("\n\n");
 
-    printf("Gokhale");
+    printf("Shirole");
 }
 
 void Function_OfAMC(void)

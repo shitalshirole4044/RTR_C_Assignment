@@ -40,7 +40,7 @@ void Function_Surname(void)
 
     printf("\n\n");
 
-    printf("Gokhale");
+    printf("Shirole");
 }
 
 void Function_MiddleName(void)
@@ -51,7 +51,7 @@ void Function_MiddleName(void)
 
     printf("\n\n");
 
-    printf("Vijay");
+    printf("Deepak");
 }
 
 void Function_FirstName(void)
@@ -62,7 +62,7 @@ void Function_FirstName(void)
 
     printf("\n\n");
 
-    printf("Pradnya");
+    printf("Shital");
 }
 
 void Function_Is(void)
