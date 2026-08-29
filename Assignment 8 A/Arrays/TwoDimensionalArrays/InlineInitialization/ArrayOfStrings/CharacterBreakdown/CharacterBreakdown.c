@@ -3,7 +3,7 @@
 #define MAX_STRING_LENGTH 512
 
 int main(void){
-    int myStrlen(char[]);
+    int MyStrlen(char[]);
 
     char strArray[10][15] = {"Hello","Welcome","To","Real","Time","Rendering","Batch","(2020-21)","Of","ASTROMEDICOMP"};
 
@@ -39,7 +39,7 @@ int main(void){
 
 }
 
-int myStrlen(char str[]){
+int MyStrlen(char str[]){
     int j;
     int string_length = 0;
     for(j=0; j<MAX_STRING_LENGTH;j++){
