@@ -2,7 +2,7 @@
 
 #define MY_PI 3.1415926535897932
 
-#define AMC_STRING "AstroMediComp RTR"
+#define AMC_STRING "AstroMediComp RTR7"
 
 enum
 {

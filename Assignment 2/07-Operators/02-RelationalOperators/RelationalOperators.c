@@ -15,11 +15,11 @@ int main(void)
     scanf("%d", &b);
 
     printf("\n\n");
-    printf("If Answer = 0, It Is 'FALSE'.\n");
-    printf("If Answer = 1, It Is 'TRUE'.\n\n");
+    printf("If Answer = 0, It Is FALSE.\n");
+    printf("If Answer = 1, It Is TRUE.\n\n");
 
     result = (a < b);
-    printf("(a < b)  A = %d Is Less Than B = %d                       \t Answer = %d\n", a, b, result);
+    printf("(a < b)  A = %d Is Less Than B =\t Answer = %d\n", a, b, result);
 
     result = (a > b);
     printf("(a > b)  A = %d Is Greater Than B = %d                    \t Answer = %d\n", a, b, result);

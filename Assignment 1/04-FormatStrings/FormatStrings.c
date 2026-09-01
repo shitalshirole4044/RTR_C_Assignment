@@ -2,7 +2,6 @@
 int main(void)
 {
     printf("\n\n");
-    printf("****************************************************************************************");
     printf("\n\n");
 
     printf("Hello World !!!\n\n");
@@ -15,7 +14,7 @@ int main(void)
 
     char ch = 'A';
     printf("Character ch = %c\n", ch);
-    char str[] = "AstroMediComp's Real Time Rendering Batch";
+    char str[] = "AstroMediComp's Real Time Rendering Batch RTR 7";
     printf("String str = %s\n\n", str);
 
     long num = 30121995L;
@@ -31,12 +30,11 @@ int main(void)
 
     double d_pi = 3.14159265358979323846;
     printf("Double Precision Floating Point Number Without Exponential = %g\n", d_pi);
-    printf("Double Precision Floating Point Number With Exponential (Lower Case) = %e\n", d_pi);
-    printf("Double Precision Floating Point Number With Exponential (Upper Case) = %E\n", d_pi);
-    printf("Double Hexadecimal Value Of 'd_pi' (Hexadecimal Letters In Lower Case) = %a\n", d_pi);
-    printf("Double Hexadecimal Value Of 'd_pi' (Hexadecimal Letters In Upper Case) = %A\n\n", d_pi);
+    printf("Double Precision Floating Point Number With Exponential = %e\n", d_pi);
+    printf("Double Precision Floating Point Number With Exponential = %E\n", d_pi);
+    printf("Double Hexadecimal Value Of 'd_pi' Hexadecimal Letters In Lower Case = %a\n", d_pi);
+    printf("Double Hexadecimal Value Of 'd_pi' Hexadecimal Letters In Upper Case = %A\n\n", d_pi);
 
-    printf("****************************************************************************************\n");
     printf("\n\n");
     return(0);
 }

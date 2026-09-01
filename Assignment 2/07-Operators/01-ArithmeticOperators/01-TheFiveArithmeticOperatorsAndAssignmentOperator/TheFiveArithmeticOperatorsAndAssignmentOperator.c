@@ -29,9 +29,7 @@ int main(void)
     printf("Division Of A = %d And B = %d Gives Quotient %d.\n", a, b, result);
 
     result = a % b;
-    printf("Division Of A = %d And B = %d Gives Remainder %d.\n", a, b, result);
-
-    printf("\n\n");
+    printf("Division Of A = %d And B = %d Gives Remainder %d.\n", a, b, result
 
     return(0);
 }
