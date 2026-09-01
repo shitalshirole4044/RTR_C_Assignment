@@ -9,13 +9,13 @@ int main(void)
     do
     {
         printf("i = %d\n", i);
-        printf("--------\n\n");
+    
 
         j = 1;
         do
         {
             printf("\tj = %d\n", j);
-            printf("\t--------\n");
+    
 
             k = 1;
             do

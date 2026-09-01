@@ -5,18 +5,18 @@ int main(int argc, char *argv[], char *envp[])
     int MyAddition(int, int);
 
     int r;
-    int num_01, num_02;
-    int num_03, num_04;
+    int num_01_ss, num_02_ss;
+    int num_03_ss, num_04_ss;
 
-    num_01 = 10;
-    num_02 = 20;
-    num_03 = 30;
-    num_04 = 40;
+    num_01_ss = 10;
+    num_02_ss = 20;
+    num_03_ss = 30;
+    num_04_ss = 40;
 
-    r = MyAddition(MyAddition(num_01, num_02), MyAddition(num_03, num_04));
+    r = MyAddition(MyAddition(num_01_ss, num_02_ss), MyAddition(num_03_ss, num_04_ss));
 
     printf("\n\n");
-    printf("%d + %d + %d + %d = %d\n", num_01, num_02, num_03, num_04, r);
+    printf("%d + %d + %d + %d = %d\n", num_01_ss, num_02_ss, num_03_ss, num_04_ss, r);
     printf("\n\n");
 
     return(0);

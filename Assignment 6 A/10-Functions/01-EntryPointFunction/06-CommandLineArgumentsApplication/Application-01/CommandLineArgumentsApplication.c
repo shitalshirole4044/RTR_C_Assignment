@@ -5,7 +5,7 @@
 int main(int argc, char *argv[], char *envp[])
 {
     int i;
-    int num;
+    int num_ss;
     int sum = 0;
 
     if(argc == 1)
@@ -20,8 +20,8 @@ int main(int argc, char *argv[], char *envp[])
     printf("Sum Of All Integer Command Line Arguments Is : \n\n");
     for (i = 1; i < argc; i++)
     {
-        num = atoi(argv[i]);
-        sum = sum + num;
+        num_ss = atoi(argv[i]);
+        sum = sum + num_ss;
     }
 
     printf("Sum = %d\n\n", sum);

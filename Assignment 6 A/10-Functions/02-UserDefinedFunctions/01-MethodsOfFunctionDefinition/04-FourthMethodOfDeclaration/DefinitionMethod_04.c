@@ -4,7 +4,7 @@ int main(int argc, char *argv[], char *envp[])
 {
     int MyAddition(int, int);
 
-    int a, b, result;
+    int a, b, result_ss;
 
     printf("\n\n");
     printf("Enter Integer Value For 'A' : ");
@@ -14,9 +14,9 @@ int main(int argc, char *argv[], char *envp[])
     printf("Enter Integer Value For 'B' : ");
     scanf("%d", &b);
 
-    result = MyAddition(a, b);
+    result_ss = MyAddition(a, b);
     printf("\n\n");
-    printf("Sum Of %d And %d = %d\n\n", a, b, result);
+    printf("Sum Of %d And %d = %d\n\n", a, b, result_ss);
 
     return(0);
 }

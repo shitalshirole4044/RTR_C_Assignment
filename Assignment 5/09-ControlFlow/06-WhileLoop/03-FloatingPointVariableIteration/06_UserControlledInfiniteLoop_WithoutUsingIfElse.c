@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-    char option, ch = '\0';
+    char option_ss, ch = '\0';
 
     printf("\n\n");
     printf("Once The Infinite Loop Begins, Enter 'Q' or 'q' To Quit The Infinite For Loop : \n\n");
@@ -18,9 +18,9 @@ int main(void)
         printf("EXITTING USER CONTROLLED INFINITE LOOP...");
 
         printf("\n\n");
-        printf("DO YOU WANT TO BEGIN USER CONTROLLED INFINITE LOOP AGAIN?...(Y/y - Yes, Any Other Key - No) : ");
-        option = getch();
-    }while (option == 'Y' || option == 'y');
+        printf("DO YOU WANT TO BEGIN USER CONTROLLED INFINITE LOOP AGAIN? ");
+        option_ss = getch();
+    }while (option_ss == 'Y' || option_ss == 'y');
 
     return(0);
 }

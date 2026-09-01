@@ -2,22 +2,22 @@
 
 int main(void)
 {
-    void change_count(void);
+    void change_count_ss(void);
 
-    extern int global_count;
+    extern int global_count_ss;
 
     printf("\n");
-    printf("Value Of global_count before change_count() = %d\n", global_count);
-    change_count();
-    printf("Value Of global_count after change_count()  = %d\n", global_count);
+    printf("Value Of global_count before change_count_ss() = %d\n", global_count_ss);
+    change_count_ss();
+    printf("Value Of global_count after change_count_ss()  = %d\n", global_count_ss);
     printf("\n");
     return(0);
 }
 
-int global_count = 0;
+int global_count_ss = 0;
 
-void change_count(void)
+void change_count_ss(void)
 {
-    global_count = 5;
-    printf("Value Of global_count in change_count() = %d\n", global_count);
+    global_count_ss = 5;
+    printf("Value Of global_count in change_count_ss() = %d\n", global_count_ss);
 }

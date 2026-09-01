@@ -7,37 +7,37 @@ int main(int argc, char *argv[], char *envp[])
     void MyMultiplication(int, int);
     int MyDivision(int, int);
 
-    int result_subtraction;
-    int a_multiplication, b_multiplication;
-    int a_division, b_division, result_division;
+    int result_subtraction_ss;
+    int a_multiplication_ss, b_multiplication_ss;
+    int a_division_ss, b_division_ss, result_division_ss;
 
     MyAddition();
 
-    result_subtraction = MySubtraction();
+    result_subtraction_ss = MySubtraction();
     printf("\n\n");
-    printf("Subtraction Yields Result = %d\n", result_subtraction);
+    printf("Subtraction Yields Result = %d\n", result_subtraction_ss);
 
     printf("\n\n");
     printf("Enter Integer Value For 'A' For Multiplication : ");
-    scanf("%d", &a_multiplication);
+    scanf("%d", &a_multiplication_ss);
 
     printf("\n\n");
     printf("Enter Integer Value For 'B' For Multiplication : ");
-    scanf("%d", &b_multiplication);
+    scanf("%d", &b_multiplication_ss);
 
-    MyMultiplication(a_multiplication, b_multiplication);
+    MyMultiplication(a_multiplication_ss, b_multiplication_ss);
 
     printf("\n\n");
     printf("Enter Integer Value For 'A' For Division : ");
-    scanf("%d", &a_division);
+    scanf("%d", &a_division_ss);
 
     printf("\n\n");
     printf("Enter Integer Value For 'B' For Division : ");
-    scanf("%d", &b_division);
+    scanf("%d", &b_division_ss);
 
-    result_division = MyDivision(a_division, b_division);
+    result_division_ss = MyDivision(a_division_ss, b_division_ss);
     printf("\n\n");
-    printf("Division Of %d and %d Gives = %d (Quotient)\n", a_division, b_division, result_division);
+    printf("Division Of %d and %d Gives = %d Quotient\n", a_division_ss, b_division_ss, result_division_ss);
 
     printf("\n\n");
 
@@ -90,12 +90,12 @@ void MyMultiplication(int a, int b)
 
 int MyDivision(int a, int b)
 {
-    int division_quotient;
+    int division_quotient_ss;
 
     if (a > b)
-        division_quotient = a / b;
+        division_quotient_ss = a / b;
     else
-        division_quotient = b / a;
+        division_quotient_ss = b / a;
 
-    return(division_quotient);
+    return(division_quotient_ss);
 }

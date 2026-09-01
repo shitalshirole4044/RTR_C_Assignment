@@ -5,13 +5,13 @@ int main(int argc, char *argv[], char *envp[])
     int MyAddition(int, int);
 
     int r;
-    int num_01, num_02;
+    int num_01_ss, num_02_ss;
 
-    num_01 = 10;
-    num_02 = 20;
+    num_01_ss = 10;
+    num_02_ss = 20;
 
     printf("\n\n");
-    printf("%d + %d = %d\n", num_01, num_02, MyAddition(num_01, num_02));
+    printf("%d + %d = %d\n", num_01_ss, num_02_ss, MyAddition(num_01_ss, num_02_ss));
     printf("\n\n");
 
     return(0);

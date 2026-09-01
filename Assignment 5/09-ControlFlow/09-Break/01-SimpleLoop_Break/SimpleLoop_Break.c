@@ -21,7 +21,7 @@ int main(void)
     }
 
     printf("\n\n");
-    printf("EXITTING LOOP...");
+    printf("EXITTING LOOP....................");
     printf("\n\n");
 
     return(0);

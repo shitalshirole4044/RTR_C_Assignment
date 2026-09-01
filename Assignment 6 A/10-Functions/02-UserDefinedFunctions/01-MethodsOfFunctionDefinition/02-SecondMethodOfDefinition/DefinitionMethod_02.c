@@ -4,12 +4,12 @@ int main(int argc, char *argv[], char *envp[])
 {
     int MyAddition(void);
 
-    int result;
+    int result_ss;
 
-    result = MyAddition();
+    result_ss = MyAddition();
 
     printf("\n\n");
-    printf("Sum = %d\n\n", result);
+    printf("Sum = %d\n\n", result_ss);
     return(0);
 }
 

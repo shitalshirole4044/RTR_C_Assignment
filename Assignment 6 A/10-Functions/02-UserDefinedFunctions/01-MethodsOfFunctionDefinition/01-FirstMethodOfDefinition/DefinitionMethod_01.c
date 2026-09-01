@@ -13,11 +13,11 @@ void MyAddition(void)
     int a, b, sum;
 
     printf("\n\n");
-    printf("Enter Integer Value For 'A' : ");
+    printf("Enter Integer Value For A : ");
     scanf("%d", &a);
 
     printf("\n\n");
-    printf("Enter Integer Value For 'B' : ");
+    printf("Enter Integer Value For B : ");
     scanf("%d", &b);
 
     sum = a + b;

@@ -4,27 +4,27 @@ int main(int argc, char *argv[], char *envp[])
 {
     unsigned int num;
 
-    void recursive(unsigned int);
+    void recursive_ss(unsigned int);
 
     printf("\n\n");
     printf("Enter Any Number : \n\n");
     scanf("%u", &num);
 
     printf("\n\n");
-    printf("Output Of Recursive Function : \n\n");
+    printf("Output Of recursive Function : \n\n");
 
-    recursive(num);
+    recursive_ss(num);
 
     printf("\n\n");
     return(0);
 }
 
-void recursive(unsigned int n)
+void recursive_ss(unsigned int n)
 {
     printf("n = %d\n", n);
 
     if(n > 0)
     {
-        recursive(n - 1);
+        recursive_ss(n - 1);
     }
 }
