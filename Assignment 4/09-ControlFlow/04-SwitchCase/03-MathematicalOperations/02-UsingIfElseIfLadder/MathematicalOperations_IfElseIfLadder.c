@@ -4,7 +4,7 @@
 int main(void)
 {
     int a, b;
-    int result;
+    int result_ss;
 
     char option, option_division;
 
@@ -29,28 +29,28 @@ int main(void)
 
     if (option == 'A' || option == 'a')
     {
-        result = a + b;
-        printf("Addition Of A = %d And B = %d Gives Result %d !!!\n\n", a, b, result);
+        result_ss = a + b;
+        printf("Addition Of A = %d And B = %d Gives result_ss %d !!!\n\n", a, b, result_ss);
     }
 
     else if (option == 'S' || option == 's')
     {
         if (a >= b)
         {
-            result = a - b;
-            printf("Subtraction Of B = %d From A = %d Gives Result %d !!!\n\n", b, a, result);
+            result_ss = a - b;
+            printf("Subtraction Of B = %d From A = %d Gives result_ss %d !!!\n\n", b, a, result_ss);
         }
         else
         {
-            result = b - a;
-            printf("Subtraction Of A = %d From B = %d Gives Result %d !!!\n\n", a, b, result);
+            result_ss = b - a;
+            printf("Subtraction Of A = %d From B = %d Gives result_ss %d !!!\n\n", a, b, result_ss);
         }
     }
 
     else if(option == 'M' || option == 'm')
     {
-        result = a * b;
-        printf("Multiplication Of A = %d And B = %d Gives Result %d !!!\n\n", a, b, result);
+        result_ss = a * b;
+        printf("Multiplication Of A = %d And B = %d Gives result_ss %d !!!\n\n", a, b, result_ss);
     }
 
     else if (option == 'D' || option == 'd')
@@ -68,13 +68,13 @@ int main(void)
         {
             if (a >= b)
             {
-                result = a / b;
-                printf("Division Of A = %d By B = %d Gives Quotient = %d !!!\n\n", a, b, result);
+                result_ss = a / b;
+                printf("Division Of A = %d By B = %d Gives Quotient = %d !!!\n\n", a, b, result_ss);
             }
             else
             {
-                result = b / a;
-                printf("Division Of B = %d By A = %d Gives Quotient = %d !!!\n\n", b, a, result);
+                result_ss = b / a;
+                printf("Division Of B = %d By A = %d Gives Quotient = %d !!!\n\n", b, a, result_ss);
             }
         }
 
@@ -82,13 +82,13 @@ int main(void)
         {
             if (a >= b)
             {
-                result = a % b;
-                printf("Division Of A = %d By B = %d Gives Remainder = %d !!!\n\n", a, b, result);
+                result_ss = a % b;
+                printf("Division Of A = %d By B = %d Gives Remainder = %d !!!\n\n", a, b, result_ss);
             }
             else
             {
-                result = b % a;
-                printf("Division Of B = %d By A = %d Gives Remainder = %d !!!\n\n", b, a, result);
+                result_ss = b % a;
+                printf("Division Of B = %d By A = %d Gives Remainder = %d !!!\n\n", b, a, result_ss);
             }
         }
 

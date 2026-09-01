@@ -13,7 +13,7 @@
 int main(void)
 {
     char ch;
-    int ch_value;
+    int ch_value_ss;
 
     printf("\n\n");
 
@@ -29,14 +29,14 @@ int main(void)
 
     else
     {
-        ch_value = (int)ch;
+        ch_value_ss = (int)ch;
 
-        if ((ch_value >= CHAR_ALPHABET_UPPER_CASE_BEGINNING && ch_value <= CHAR_ALPHABET_UPPER_CASE_ENDING) || (ch_value >= CHAR_ALPHABET_LOWER_CASE_BEGINNING && ch_value <= CHAR_ALPHABET_LOWER_CASE_ENDING))
+        if ((ch_value_ss >= CHAR_ALPHABET_UPPER_CASE_BEGINNING && ch_value_ss <= CHAR_ALPHABET_UPPER_CASE_ENDING) || (ch_value_ss >= CHAR_ALPHABET_LOWER_CASE_BEGINNING && ch_value_ss <= CHAR_ALPHABET_LOWER_CASE_ENDING))
         {
             printf("Character \'%c\' Entered By You, Is A CONSONANT CHARACTER From The English Alphabet !!!\n\n", ch);
         }
 
-        else if (ch_value >= CHAR_DIGIT_BEGINNING && ch_value <= CHAR_DIGIT_ENDING)
+        else if (ch_value_ss >= CHAR_DIGIT_BEGINNING && ch_value_ss <= CHAR_DIGIT_ENDING)
         {
             printf("Character \'%c\' Entered By You, Is A DIGIT CHARACTER !!!\n\n", ch);
         }

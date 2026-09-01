@@ -11,15 +11,15 @@ int main(void)
 
     if (a < b)
     {
-        printf("A Is Less Than B !!!\n\n");
+        printf("A Is Less Than B \n\n");
     }
 
     if (b != p)
     {
-        printf("B Is NOT Equal To P !!!\n\n");
+        printf("B Is NOT Equal To P \n\n");
     }
 
-    printf("Both Comparisons Have Been Done !!!\n\n");
+    printf("Both Comparisons Have Been Done \n\n");
 
     return(0);
 }

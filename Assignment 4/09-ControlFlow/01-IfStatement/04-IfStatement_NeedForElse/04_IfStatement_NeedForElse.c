@@ -8,8 +8,8 @@ int main(void)
     scanf("%d", &age);
     if (age >= 18)
     {
-        printf("You Are Eligible For Voting !!!\n\n");
+        printf("You Are Eligible For Voting\n\n");
     }
-    printf("You Are NOT Eligible For Voting !!!\n\n");
+    printf("You Are NOT Eligible For Voting\n\n");
     return(0);
 }

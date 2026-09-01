@@ -5,7 +5,7 @@ int main(void)
 
     printf("\n\n");
 
-    printf("Enter Number Of Month (1 to 12) : ");
+    printf("Enter Number Of Month : ");
     scanf("%d", &num_month);
 
     printf("\n\n");
@@ -61,7 +61,7 @@ int main(void)
         break;
 
     default:
-        printf("Invalid Month Number %d Entered !!! Please Try Again...\n\n", num_month);
+        printf("Invalid Month Number %d Entered !!! Please Try Again\n\n", num_month);
         break;
     }
 
