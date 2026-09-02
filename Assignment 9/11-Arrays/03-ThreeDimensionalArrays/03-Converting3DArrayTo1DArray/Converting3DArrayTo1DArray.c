@@ -19,10 +19,10 @@ int main(void)
     printf("Elements In The 3D Array : \n\n");
     for (i = 0; i < NUM_ROWS; i++)
     {
-        printf("****** ROW %d ******\n", (i + 1));
+       
         for (j = 0; j < NUM_COLUMNS; j++)
         {
-            printf("****** COLUMN %d ******\n", (j + 1));
+           
             for (k = 0; k < DEPTH; k++)
             {
                 printf("iArray[%d][%d][%d] = %d\n", i, j, k, iArray[i][j][k]);
