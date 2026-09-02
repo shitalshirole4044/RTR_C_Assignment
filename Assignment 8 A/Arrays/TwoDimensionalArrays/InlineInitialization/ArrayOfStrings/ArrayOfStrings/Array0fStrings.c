@@ -1,70 +1,70 @@
 #include<stdio.h>
 
-#define MAX_STRING_LENGTH 512
+#define MAX_ss_string_length 512
 
 int main(void){
     // function prototype
 
-    int myStrlen(char[]);
+    int SS_myStrlen(char[]);
 
-    char strArray[10][15] = {"hello!","Welcome","To","Real","Time","Rendering","Batch","(2020-21)","Of","ASTROMEDICOMP"};
+    char SS_strArray[10][15] = {"hello!","Welcome","To","Real","Time","Rendering","Batch","2026","Of","ASTROMEDICOMP"};
 
-    int char_size;
-    int strArray_size;
-    int strArray_num_elements, strArray_num_rows, strArray_num_columns;
+    int ss_char_size;
+    int SS_strArray_size;
+    int SS_strArray_num_elements, SS_strArray_num_rows, SS_strArray_num_columns;
     int strActual_num_chars=0;
     int i;
 
     printf("\n\n");
 
-    char_size =sizeof(char);
+    ss_char_size =sizeof(char);
 
-    strArray_size = sizeof(strArray);
+    SS_strArray_size = sizeof(SS_strArray);
 
-    printf("Size Of Two Dimensional ( 2D ) Character Array (String Array) Is = %d\n\n", strArray_size);
+    printf("Size Of Two Dimensional Character Array (String Array) Is = %d\n\n", SS_strArray_size);
 
-    strArray_num_rows = strArray_size / sizeof(strArray[0]);
-    printf("Number of Rows (Strings) In Two Dimensional ( 2D ) Character Array (String Array) Is = %d\n\n", strArray_num_rows);
+    SS_strArray_num_rows = SS_strArray_size / sizeof(SS_strArray[0]);
+    printf("Number of Rows In Two Dimensional Character Array Is = %d\n\n", SS_strArray_num_rows);
 
-    strArray_num_columns = sizeof(strArray[0]) / char_size;
-    printf("Number of Columns In Two Dimensional ( 2D ) Character Array (String Array) Is = %d\n\n", strArray_num_columns);
+    SS_strArray_num_columns = sizeof(SS_strArray[0]) / ss_char_size;
+    printf("Number of Columns In Two Dimensional Character Array Is = %d\n\n", SS_strArray_num_columns);
 
-    strArray_num_elements = strArray_num_rows * strArray_num_columns;
-    printf("Maximum Number of Elements (Characters) In Two Dimensional ( 2D) Character Array (String Array) Is = %d\n\n", strArray_num_elements);
+    SS_strArray_num_elements = SS_strArray_num_rows * SS_strArray_num_columns;
+    printf("Maximum Number of Elements In Two Dimensional Character Array  Is = %d\n\n", SS_strArray_num_elements);
 
-    for (i = 0; i < strArray_num_rows; i++){
-        strActual_num_chars = strActual_num_chars + MyStrlen(strArray[i]);
+    for (i = 0; i < SS_strArray_num_rows; i++){
+        strActual_num_chars = strActual_num_chars + SS_myStrlen(SS_strArray[i]);
     }
 
-    printf("Actual Number of Elements (Characters) In Two Dimensional ( 2D) Character Array (String Array) Is = %d\n\n", strActual_num_chars);
+    printf("Actual Number of Elements In Two Dimensional Character Array Is = %d\n\n", strActual_num_chars);
 
     printf("\n\n");
     printf("Strings In The 2D Array: \n\n");
 
-    printf("%s ", strArray[0]);
-    printf("%s ", strArray[1]);
-    printf("%s ", strArray [2]);
-    printf("%s ", strArray[3]);
-    printf("%s ", strArray[4]);
-    printf("%s ", strArray[5]);
-    printf("%s ", strArray[6]);
-    printf("%s ", strArray[7]);
-    printf("%s ", strArray[8]);
-    printf("%s\n\n", strArray[9]);
+    printf("%s ", SS_strArray[0]);
+    printf("%s ", SS_strArray[1]);
+    printf("%s ", SS_strArray [2]);
+    printf("%s ", SS_strArray[3]);
+    printf("%s ", SS_strArray[4]);
+    printf("%s ", SS_strArray[5]);
+    printf("%s ", SS_strArray[6]);
+    printf("%s ", SS_strArray[7]);
+    printf("%s ", SS_strArray[8]);
+    printf("%s\n\n", SS_strArray[9]);
     return(0);
 
 }
 
-int MyStrlen(char str[])
+int SS_myStrlen(char str[])
 {
     int j;
-    int string_length = 0;
+    int ss_string_length = 0;
 
-    for (j = 0; j < MAX_STRING_LENGTH; j++){
+    for (j = 0; j < MAX_ss_string_length; j++){
         if (str[j] == '\0')
             break;
         else 
-            string_length++;
+            ss_string_length++;
     }
-    return(string_length);
+    return(ss_string_length);
 }

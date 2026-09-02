@@ -17,16 +17,16 @@ int main(void)
     char_size = sizeof(char);
 
     strArray_size = sizeof(strArray);
-    printf("Size Of Two Dimensional ( 2D ) Character Array (String Array) Is = %d\n\n", strArray_size);
+    printf("Size Of Two Dimensional  Character Array (String Array) Is = %d\n\n", strArray_size);
 
     strArray_num_rows = strArray_size / sizeof(strArray[0]);
-    printf("Number of Rows (Strings) In Two Dimensional ( 2D ) Character Array (String Array) Is = %d\n\n", strArray_num_rows);
+    printf("Number of Rows (Strings) In Two Dimensional  Character Array (String Array) Is = %d\n\n", strArray_num_rows);
 
     strArray_num_columns = sizeof(strArray[0]) / char_size;
-    printf("Number of Columns In Two Dimensional ( 2D ) Character Array (String Array) Is = %d\n\n", strArray_num_columns);
+    printf("Number of Columns In Two Dimensional  Character Array (String Array) Is = %d\n\n", strArray_num_columns);
 
     strArray_num_elements = strArray_num_rows * strArray_num_columns;
-    printf("Maximum Number of Elements (Characters) In Two Dimensional ( 2D ) Character Array (String Array) Is = %d\n\n", strArray_num_elements);
+    printf("Maximum Number of Elements (Characters) In Two Dimensional  Character Array (String Array) Is = %d\n\n", strArray_num_elements);
 
     MyStrcpy(strArray[0], "My");
     MyStrcpy(strArray[1], "Name");

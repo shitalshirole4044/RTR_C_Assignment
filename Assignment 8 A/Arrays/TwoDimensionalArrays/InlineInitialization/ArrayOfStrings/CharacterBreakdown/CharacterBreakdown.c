@@ -3,34 +3,34 @@
 #define MAX_STRING_LENGTH 512
 
 int main(void){
-    int MyStrlen(char[]);
+    int ss_MyStrlen(char[]);
 
-    char strArray[10][15] = {"Hello","Welcome","To","Real","Time","Rendering","Batch","(2020-21)","Of","ASTROMEDICOMP"};
+    char ss_strArray[10][15] = {"Hello","Welcome","To","Real","Time","Rendering","Batch","2026","Of","ASTROMEDICOMP"};
 
     int iStrLengths[10];
 
-    int strArray_size;
-    int strArray_num_rows;
+    int ss_strArray_size;
+    int ss_strArray_num_rows;
     int i,j;
 
-    strArray_size = sizeof(strArray);
-    strArray_num_rows = strArray_size / sizeof(strArray[0]);
+    ss_strArray_size = sizeof(ss_strArray);
+    ss_strArray_num_rows = ss_strArray_size / sizeof(ss_strArray[0]);
 
-    for (i = 0; i < strArray_num_rows; i++)
-        iStrLengths[i] = MyStrlen(strArray[i]);
+    for (i = 0; i < ss_strArray_num_rows; i++)
+        iStrLengths[i] = ss_MyStrlen(ss_strArray[i]);
 
     printf("\n\n"); 
     printf("The Entire String Array: \n\n");
-    for (i = 0; i < strArray_num_rows; i++)
-        printf("%s ", strArray[i]);
+    for (i = 0; i < ss_strArray_num_rows; i++)
+        printf("%s ", ss_strArray[i]);
 
     printf("\n\n");
     printf("Strings In The 2D Array: \n\n");
 
-    for (i = 0; i < strArray_num_rows; i++){
-        printf("String Number %d => %s\n\n", (i+ 1), strArray[i]);
+    for (i = 0; i < ss_strArray_num_rows; i++){
+        printf("String Number %d => %s\n\n", (i+ 1), ss_strArray[i]);
         for (j = 0; j < iStrLengths[i]; j++){
-            printf("Character %d = %c\n", (j + 1), strArray[i][j]);
+            printf("Character %d = %c\n", (j + 1), ss_strArray[i][j]);
         }
         printf("\n\n");
 
@@ -39,7 +39,7 @@ int main(void){
 
 }
 
-int MyStrlen(char str[]){
+int ss_MyStrlen(char str[]){
     int j;
     int string_length = 0;
     for(j=0; j<MAX_STRING_LENGTH;j++){
